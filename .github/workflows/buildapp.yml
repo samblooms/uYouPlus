@@ -113,7 +113,7 @@ jobs:
       - name: Prepare YouTube iPA
         id: prepare_youtube
         run: |
-          wget "https://limewire.com/d/8d7b0677-6ddb-4ce6-ad0f-eb09de429a2c%233mOaPCMhQ-9j1AN2Mwa4XvSRjU9hDRGaADMwIypYc0Y" --no-verbose -O main/YouTube.ipa
+          wget https://drive.usercontent.google.com/download\?id\=1Gc5kNtTHQCiBZrOQxfD_c227zUtIxEZC\&export\=download\&authuser\=0\&confirm\=yes
           cd ${{ github.workspace }}/main
           mv YouTube.ipa YouTube.zip
           unzip -q YouTube.zip
